@@ -11,3 +11,5 @@ const time = date.getTime();
 console.log(time);
 
 console.log("Happy new year");
+
+console.log("Today is 2/10");

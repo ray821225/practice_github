@@ -10,4 +10,6 @@ const month = fulldate.getMonth();
 
 const date = fulldate.getDate();
 
-console.log(year + "/" + month + "/" + date);
+const hour = fulldate.getHours();
+
+console.log(year + "/" + month + "/" + date + " " + hour + "o'clock");

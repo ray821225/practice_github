@@ -6,7 +6,7 @@ const time = fulldate.getTime();
 
 const year = fulldate.getFullYear();
 
-const month = fulldate.getMonth();
+const month = fulldate.getMonth() + 1;
 
 const date = fulldate.getDate();
 

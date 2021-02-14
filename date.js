@@ -6,10 +6,15 @@ const time = fulldate.getTime();
 
 const year = fulldate.getFullYear();
 
-const month = fulldate.getMonth();
+const month = fulldate.getMonth() + 1;
 
-const date = fulldate.getDate();
+const date = fulldate.getDate() + 1;
 
 const hour = fulldate.getHours();
 
-console.log(year + "/" + month + "/" + date + " " + hour + "o'clock");
+const tomorrow = () => {
+    console.log("Tomorrow is " + year + "/" + month + "/" + date);
+  };
+  
+  tomorrow();
+

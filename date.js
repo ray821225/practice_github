@@ -12,4 +12,8 @@ const date = fulldate.getDate();
 
 const hour = fulldate.getHours();
 
-console.log(year + "/" + month + "/" + date + " " + hour + "o'clock");
+const today = () => {
+  console.log("Today is " + year + "/" + month + "/" + date);
+};
+
+today();

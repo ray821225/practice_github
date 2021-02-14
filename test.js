@@ -1,15 +1,13 @@
-const date = new Date();
+const fulldate = new Date();
 
-console.log(date);
+const day = fulldate.getDay();
 
-const day = date.getDay();
+const time = fulldate.getTime();
 
-console.log(day);
+const year = fulldate.getFullYear();
 
-const time = date.getTime();
+const month = fulldate.getMonth();
 
-console.log(time);
+const date = fulldate.getDate();
 
-console.log("Happy new year");
-
-console.log("Today is 2/13");
+console.log(year + "/" + month + "/" + date);

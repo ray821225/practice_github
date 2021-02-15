@@ -13,13 +13,15 @@ const date = fulldate.getDate() + 1;
 const hour = fulldate.getHours();
 
 const tomorrow = () => {
-    console.log("Tomorrow is " + year + "/" + month + "/" + date);
-  };
-  
-  tomorrow();
+  console.log("Tomorrow is " + year + "/" + month + "/" + date);
+};
 
 const today = () => {
   console.log("Today is " + year + "/" + month + "/" + date);
 };
 
-today();
+const spellName = (name) => {
+  console.log("My name is " + name);
+};
+
+spellName("Ray");

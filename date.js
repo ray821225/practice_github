@@ -25,3 +25,7 @@ const spellName = (name) => {
 };
 
 spellName("Ray");
+
+const b = () => {
+  console.log("b");
+};

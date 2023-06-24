@@ -20,8 +20,6 @@ const today = () => {
   console.log("Today is " + year + "/" + month + "/" + date);
 };
 
-const spellName = (name) => {
-  console.log("My name is " + name);
+const a = () => {
+  console.log("this a funciton");
 };
-
-spellName("Ray");

@@ -23,12 +23,11 @@ const today = () => {
 const a = () => {
   console.log("this a funciton");
 };
-<<<<<<< HEAD
-=======
-
-spellName("Ray");
 
 const b = () => {
   console.log("b");
 };
->>>>>>> c5f7e852eb435b3ebae561dd25e0d9b03ddc19c4
+
+const c = () => {
+  console.log("c");
+};

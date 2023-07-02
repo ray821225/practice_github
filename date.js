@@ -19,3 +19,7 @@ const tomorrow = () => {
 const today = () => {
   console.log("Today is " + year + "/" + month + "/" + date);
 };
+
+const text = () => {
+  console.log("text");
+};

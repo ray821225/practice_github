@@ -21,7 +21,7 @@ const today = () => {
 };
 
 const a = () => {
-  console.log("this a funciton");
+  console.log("a");
 };
 
 const b = () => {

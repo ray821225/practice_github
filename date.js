@@ -35,3 +35,7 @@ const c = () => {
 const d = () => {
   console.log("d");
 };
+
+const e = () => {
+  console.log("e");
+};
